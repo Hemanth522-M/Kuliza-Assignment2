@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "id": 1,
+      "name": "Pokeman"
+    },
+    {
+      "id": 2,
+      "name": "Harry Porter"
+    },
+    {
+      "id": 3,
+      "name": "Fantastic Beasts"
+    },
+    {
+      "id": 4,
+      "name": "Mission Impossible"
+    },
+    {
+      "id": 5,
+      "name": "Wreck It Ralph"
+    }
+  ]
+}

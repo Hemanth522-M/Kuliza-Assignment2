@@ -1,0 +1,142 @@
+/* Header Styles */
+
+.header {
+  background-color: lightgrey;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+
+.logo {
+  width: auto;
+  max-width: 80px;
+  height: auto;
+  max-height: 80px;
+  padding: 5px;
+}
+
+.name {
+  font-family: sans-serif;
+  color: darkcyan;
+}
+
+/* Screen 1 styles */
+.mainDiv {
+  background-color: white;
+  width: 99%;
+  height: auto;
+  border: 1px solid grey;
+  margin: 5px;
+}
+
+.subDiv {
+  padding: 10px 20px 20px 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.button {
+  float: right;
+}
+
+.create {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.item {
+  display: block;
+  margin-left: -26px;
+}
+label {
+  display: inline;
+}
+input[type=checkbox] {
+  display: inline;
+}
+
+#img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  display: inline;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.itemName {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+/* The popup form - hidden by default */
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+    display: block;
+    margin: 20px auto 0px auto;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text] {
+    width: 92%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  #overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+.navLink {
+  text-decoration: none;
+}
